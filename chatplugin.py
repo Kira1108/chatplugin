@@ -33,10 +33,10 @@ if __name__ == "__main__":
     },
     "api": {
         "type": "openapi",
-        "url": "http://localhost:3333/openapi.yaml",
+        "url": "http://127.0.0.1:12003/openapi.yaml",
         "is_user_authenticated": False
     },
-    "logo_url": "http://localhost:3333/logo.png",
+    "logo_url": "http://127.0.0.1:12003/logo.png",
     "contact_email": "support@example.com",
     "legal_info_url": "http://www.example.com/legal"
     }

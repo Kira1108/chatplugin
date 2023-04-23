@@ -13,11 +13,17 @@ This is a todo plugin app
 
 _TODOS = {}
 
+# app = FastAPI(
+#     title = 'TODO app', 
+#     description = description, 
+#     version = 'v1',
+#     servers=[{"url": "http://127.0.0.1:12003"}])
+
+
 app = FastAPI(
     title = 'TODO app', 
     description = description, 
-    version = 'v1',
-    servers=[{"url": "http://127.0.0.1:12003"}])
+    version = 'v1')
 
 origins = [
     "https://chat.openai.com",
